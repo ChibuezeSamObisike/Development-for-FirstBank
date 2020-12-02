@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.landing_page{
+    height: 100vh;
+    background:#1E4066;
+    padding: 20px;
+}
+
+nav .navlinks{
+    margin:40px;
+}
+
+nav .navlinks>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav img {
+    width: 30em;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-button{
+    padding-left: 100px;
+}
+
+.text-button>a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.text-button>h1{
+    font-size: 70px;
+    color: white;
+}
+
+.imgblock .fbn-img{
+    position: relative;
+    width: 824px;
+    height: 617px;
+    margin-top: -30px;
+    padding-right: 56px;
+    padding-bottom: 65px;
+}
+
+.imgblock .dot{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -51px;
+    z-index: 90;
+}
+.second{
+    height: 40vh;
+}
+
+.services{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap: 40px;
+}
+
+.services .head>h1{
+    font-size: 36px;
+}
+
+.services .head>p{
+    font-size: 24px;
+}
+
+.services .fs{
+    width: 370px;
+    height: 240px;
+    padding: 15px;
+    color:#1E4066;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px rgba(138, 149, 158, 0.2);
+}
+
+
+.services .ss{
+    width: 370px;
+    height: 240px;
+    padding: 15px;
+    color: white;
+    background: #DDAA10;
+}
+
+.services .ts{
+    width: 370px;
+    height: 240px;
+    padding: 15px;
+    color: white;
+    background: #1e4066;
+}
+
+.third{
+    height: 60vh;
+    background: #DDAA10;
+}
+
+.third-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-smile .smile{
+    position: relative;
+    width: auto;
+    height: 60vh;
+}
+.dotted{
+    position: absolute;
+    z-index: 9901;
+    margin-left: -150px;
+}
+
+.btnl1{
+    padding: 10px;
+    background: #DDAA10;
+    margin-right: 20px;
+    text-align: center;
+    display: inline-block;
+    min-width: 190px;
+    box-sizing: border-box;
+}
